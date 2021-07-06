@@ -1,29 +1,58 @@
 body{
-    font-family: 'Uchen', serif;
-    margin: 0px;
+font-family: 'Noto Sans', sans-serif;
+margin: 0px;
 }
-.orange{
-    color: coral;
+h1{
+    font-size: 50px;
 }
-.flaxible-container{
+.half-width p{
+    font-weight: 500;
+    line-height: 10px;
+}
+.flax-container{
     display: flex;
-    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding: 10%;
 }
-.half-width img{
-    width: 67%;
+.first-head img{
+    width:80% ;
 }
-.order-button{
-    color: white;
-    background-image: linear-gradient(orange, tomato, deeppink);
-    text-decoration: none;
-    padding: 5px 20px;
-    border-radius: 20px;
+.second-head img{
+    width: 100%;
+    height: 72%;
 }
-.second-banner{
+.button{
+   text-decoration: none;
+   background-image: linear-gradient(orange, tomato, deeppink);
+   color: white;
+   font-weight: 700;
+   padding: 5px 10px;
+   border-radius: 30px;
+   background-position: left;
+}
+.second-head{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    background-position: justify;
+}
+.about-recipi{
+    text-align: center;
+}
+#container{
+    display: flex;
+    padding: 5%;
+}
+.gallery{
+    width: 33.33%;
+    padding: 2%;
+    margin-left: 1%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+}
+.gallery img{
+    width: 100%;
 }
