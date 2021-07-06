@@ -45,6 +45,9 @@ h1{
 .about-recipi{
     text-align: center;
 }
+.my-recipie{
+    color: black;
+}
 #container{
     display: flex;
     padding: 5%;
