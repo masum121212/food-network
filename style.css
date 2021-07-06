@@ -45,6 +45,9 @@ h1{
 .about-recipi{
     text-align: center;
 }
+#color{
+    color: grey;
+}
 .my-recipie{
     color: black;
 }
